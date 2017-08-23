@@ -1,0 +1,15 @@
+{
+          "description": "Enter your playbook description here",
+        "callbacks": [
+        ],
+        "hosts":[
+            {
+              "id":"localhost",
+              "hostVars":{"ansible_connection":"local"}
+            }
+        ],
+        "repository": {
+            "defaultPlaybook": "hello_world.yml",
+            "url": "https://github.com/jmiller_ocl/hello_world"
+        },
+    }
