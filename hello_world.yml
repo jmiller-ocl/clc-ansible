@@ -1,6 +1,6 @@
 ---
    - name: Hello World
-     hosts: IL1OLDV-JTEST01
+     hosts: localhost
 
      tasks:
        - name: Display Text
